@@ -23,5 +23,20 @@ boxes.forEach((box)=>{
         
     })
    
-    
 })
+
+
+document.addEventListener("DOMContentLoaded", () => {
+  const btn1 = document.querySelector("#btn1");
+  const btn2 = document.querySelector("#btn2");
+
+  btn1.addEventListener("click", () => {
+    console.log("hello");
+    alert("hello");
+  });
+
+  btn2.addEventListener("dblclick", () => {
+    console.log("hello2");
+    alert("hello");
+  });
+});
